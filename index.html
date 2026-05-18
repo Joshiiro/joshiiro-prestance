@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joshiiro Prestance</title>
+
+<!-- Favicon (logo onglet navigateur) -->
+<link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+
+<style>
+strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+strong::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: url("logo.png") no-repeat center;
+  background-size: contain;
+  display: inline-block;
+}
+</style>
+
+</head>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0f0f0f;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* TITRES */
+h1, h2 {
+    color: #4da6ff;
+}
+
+h3 {
+    color: white;
+}
+
+/* SECTIONS */
+.section {
+    padding: 20px 0;
+}
+
+/* CARDS */
+.card {
+    background: #1a1a1a;
+    border: 1px solid rgba(77,166,255,0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #4da6ff;
+}
+
+/* LISTES */
+ul {
+    padding-left: 20px;
+}
+
+/* IMAGES */
+img {
+    width: 75%;
+    max-width: 520px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cta h2 {
+    color: white;
+}
+
+.cta a {
+    background: #4da6ff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* FAQ */
+.faq-item {
+    border-bottom: 1px solid #333;
+}
+
+.faq-question {
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    padding: 0 20px;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 200px;
+    padding-bottom: 15px;
+}
+
+.arrow {
+    transition: 0.3s;
+}
+
+.faq-item.active .arrow {
+    transform: rotate(180deg);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #333;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER STICKY -->
+<div style="position:sticky; top:0; width:100%; background:#0f0f0f; padding:15px; z-index:1000; border-bottom:1px solid #222; text-align:left;">
+
+<a href="/joshiiro-prestance" style="text-decoration:none;">
+<strong style="color:#d4af37; letter-spacing:1px; font-size:18px;">
+Joshiiro Prestance
+</strong>
+</a>
+
+</div>
+
+<div class="container">
+
+<!-- HERO -->
+
+<section class="section" style="
+display:flex;
+justify-content:center;
+padding:100px 20px;
+">
+
+<div style="
+width:88%;
+max-width:560px; /* réduit la largeur */
+padding:80px 32px; /* plus équilibré */
+box-sizing:border-box;
+text-align:center;
+border-radius:22px;
+
+
+/* effet verre premium */
+background: rgba(212, 175, 55, 0.06);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+
+/* bordure dorée subtile */
+border: 1px solid rgba(212, 175, 55, 0.35);
+
+/* glow doux pour effet luxe */
+box-shadow: 
+0 0 25px rgba(212, 175, 55, 0.10),
+inset 0 0 40px rgba(212, 175, 55, 0.05);
+">
+
+<h1 style="
+font-size:32px;
+color:#d0d0d0;
+max-width:520px;
+margin:auto;
+line-height:1.25;
+">
+Créez un système digital<br>
+qui attire, convertit<br>
+et génère des clients.
+</h1>
+
+<p style="
+font-size:20px;
+color:#aaa;
+margin:28px 0;
+line-height:1.5;
+">
+L’excellence digitale<br>
+au service de votre image
+</p>
+
+<p style="
+margin-top:20px;
+color:#d4af37;
+font-size:14px;
+letter-spacing:1.5px;
+">
+Sites web • Logiciels • Applications • SaaS
+</p>
+
+<div style="margin-top:38px;">
+
+<a href="https://wa.me/590690111817" 
+style="
+background:#d4af37;
+padding:14px 26px;
+border-radius:10px;
+color:#111;
+text-decoration:none;
+display:inline-block;
+font-weight:500;
+box-shadow:0 10px 25px rgba(212,175,55,0.25);
+">
+🚀 Démarrer un projet
+</a>
+
+<br><br>
+
+<a href="mailto:joshiiroprestance@gmail.com?subject=Demande de projet&body=Bonjour, je souhaite discuter de mon projet digital." 
+style="
+color:#bbb;
+text-decoration:none;
+font-size:14px;
+">
+📨 Obtenir une proposition sur mesure
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+<section class="section">
+<h2>Ce que nous créons</h2>
+<ul>
+<li>Sites web sur mesure</li>
+<li>Logiciels personnalisés</li>
+<li>Applications web & mobiles</li>
+<li>Outils SaaS</li>
+<li>Interfaces UX/UI</li>
+<li>Systèmes automatisés</li>
+</ul>
+</section>
+
+<!-- RESULTAT -->
+<section class="section">
+<h2>Résultat</h2>
+
+<p>
+Chaque projet a un objectif clair : transformer une idée en résultat concret.
+</p>
+
+<ul>
+<li>Attirer plus de clients</li>
+<li>Améliorer votre image</li>
+<li>Automatiser votre activité</li>
+<li>Accélérer votre croissance</li>
+</ul>
+</section>  
+
+<!-- REALISATIONS -->
+<section class="section">
+<h2>✨ Réalisations</h2>
+
+<img src="réalisation1.jpeg">
+
+<div class="card">
+<h3>Projet Business</h3>
+<p><strong>Objectif : Transformer une idée en activité rentable</strong></p>
+<ul>
+<li>Structure claire</li>
+<li>Parcours client optimisé</li>
+<li>Design orienté conversion</li>
+</ul>
+</div>
+
+<img src="réalisation2.jpeg">
+
+<div class="card">
+<h3>Projet E-commerce</h3>
+<p><strong>Objectif : Vendre en ligne facilement</strong></p>
+<ul>
+<li>Page produit optimisée</li>
+<li>Paiement intégré</li>
+<li>Expérience fluide</li>
+</ul>
+</div>
+
+<img src="réalisation3.jpeg">
+
+<div class="card">
+<h3>Projet IA</h3>
+<p><strong>Objectif : Automatiser le business</strong></p>
+<ul>
+<li>Agent intelligent</li>
+<li>Assistance en temps réel</li>
+<li>Analyse des besoins utilisateurs</li>
+</ul>
+</div>
+
+<img src="réalisation4.jpeg">
+
+<div class="card">
+<h3>Identité visuelle</h3>
+<p><strong>Objectif : Construire une image de marque forte</strong></p>
+<ul>
+<li>Design moderne</li>
+<li>Logo unique et sur mesure</li>
+<li>Image professionnelle</li>
+</ul>
+</div>
+
+</section>
+
+<!-- 👇 ICI TU AJOUTES LES AVIS -->
+
+<section class="section">
+<h2>Avis clients</h2>
+
+<div class="card">
+<p>⭐⭐⭐⭐⭐</p>
+<p>– Il y a 3 jours
+“Joshiiro Prestance m’a créé un site web ultra professionnel pour mon activité.
+Le design est propre, moderne et surtout optimisé pour convertir mes visiteurs en clients. 
+J’ai vu une vraie différence dès la mise en ligne.”
+Écrit 3 jours après livraison</p>
+<p><strong>- Kevin M.</strong></p>
+</div>
+
+<div class="card">
+<p>⭐⭐⭐⭐⭐</p>
+<p>– Il y a 7 jours
+“Je cherchais une solution pour digitaliser mon business et automatiser certaines tâches. 
+Le résultat dépasse mes attentes : site fluide, interface claire et système bien pensé. Très bon travail.”
+Écrit 7 jours après livraison</p>
+<p><strong>- Sarah L.</strong></p>
+</div>
+
+<div class="card">
+<p>⭐⭐⭐⭐⭐</p>
+<p>– Il y a 20 jours
+“Service sérieux et très professionnel. Le site e-commerce livré est rapide, responsive et 
+parfaitement adapté à mon activité. Communication simple et efficace du début à la fin.”
+Écrit 20 jours après livraison</p>
+<p><strong>- Yanis D.</strong></p>
+</div>
+
+</section>
+
+<!-- APPROCHE -->
+<section class="section">
+<h2>Notre approche</h2>
+
+<p>
+Chaque projet est pensé, conçu et développé pour répondre à un objectif précis.
+</p>
+
+<ul>
+<li>Analyse des besoins</li>
+<li>Conception sur mesure</li>
+<li>Développement moderne</li>
+<li>Optimisation UX</li>
+<li>Livraison clé en main</li>
+</ul>
+</section>
+
+<!-- TARIFS -->
+<section class="section">
+<h2>Tarification</h2>
+
+<p>
+Des solutions adaptées à chaque ambition
+</p>
+
+<div class="card">
+<h3>START</h3>
+<p><strong>150€ à 400€</strong></p>
+<p>L’essentiel pour exister en ligne</p>
+</div>
+
+<div class="card">
+<h3>BUSINESS</h3>
+<p><strong>400€ à 1200€</strong></p>
+<p>Une présence professionnelle et efficace</p>
+</div>
+
+<div class="card">
+<h3>PREMIUM</h3>
+<p><strong>1200€ à 3000€+</strong></p>
+<p>Une solution complète pour performer</p>
+</div>
+
+<div class="card">
+<h3>SUR MESURE</h3>
+<p><strong>2000€+</strong></p>
+<p>Pour les projets complexes et évolutifs</p>
+</div>
+</section>
+
+<!-- 👇 ICI TU AJOUTES -->
+
+<div class="card">
+
+<h2>Moyens de paiement</h2>
+
+<ul>
+
+<li>💳 Virement bancaire (IBAN)</li>
+
+<li>📲 PayPal</li>
+
+<li>📱 Mobile Money (selon disponibilité)</li>
+
+<li>₿ Crypto (sur demande)</li>
+
+</ul>
+
+<p>
+<strong>Conditions de paiement</strong><br>
+Tout projet débute après validation du paiement ou réception d’un acompte.<br><br>
+
+• Acompte de 50% requis pour démarrer<br>
+• Solde à régler avant livraison finale<br>
+• Paiement sécurisé par virement bancaire<br><br>
+
+Nous garantissons un accompagnement sérieux et une gestion professionnelle à chaque étape du projet.
+</p>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+<section class="section">
+<h2>FAQ</h2>
+
+<div class="faq-item">
+<div class="faq-question">À qui s’adresse ce service ? <span class="arrow">▼</span></div>
+<div class="faq-answer">
+<p>
+Ce service s’adresse aux entrepreneurs, marques et entreprises qui veulent
+plus qu’un simple site web : un véritable système digital pensé pour attirer 
+des prospects, renforcer leur image et convertir les visiteurs en clients.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Que vais-je obtenir ? <span class="arrow">▼</span></div>
+<div class="faq-answer">
+<p>
+Une solution digitale conçue sur mesure selon vos 
+objectifs : site web, application, logiciel ou système 
+automatisé pensé pour améliorer votre image et 
+soutenir votre croissance.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Comment se déroule un projet ? <span class="arrow">▼</span></div>
+<div class="faq-answer">
+<p>
+Chaque projet suit un processus structuré : analyse 
+stratégique, conception UX/UI, développement sur 
+mesure, optimisations et livraison d’une solution
+prête à performer.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Combien de temps ? <span class="arrow">▼</span></div>
+<div class="faq-answer">
+<p>
+Les délais varient selon l’ampleur et les 
+fonctionnalités du projet. Chaque solution est 
+conçue sur mesure afin de garantir un résultat 
+professionnel, optimisé et durable.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Compétences nécessaires ? <span class="arrow">▼</span></div>
+<div class="faq-answer">
+<p>
+Aucune compétence technique n’est requise. Nous 
+concevons une solution clé en main, simple à utiliser 
+et adaptée à votre activité.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Support après livraison ? <span class="arrow">▼</span></div>
+<div class="faq-answer">
+<p>
+Oui. Un suivi peut être mis en place après la livraison 
+afin de garantir le bon fonctionnement, les ajustements 
+nécessaires et l’évolution de votre solution digitale 
+selon les besoins du projet.
+</p>
+</div>
+</div>
+
+</section>
+
+<!-- CTA -->
+<section class="cta">
+<h2>Construisons votre projet digital</h2>
+
+<a href="https://wa.me/590690111817">📞 Réserve ton appel aujourd’hui</a>
+<a href="mailto:joshiiroprestance@gmail.com">📨 Demander un devis</a>
+
+</section>
+
+</div>
+
+<footer>
+  <p>©️ <span id="year"></span> Joshiiro Prestance — Création digitale sur mesure.</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+<script>
+document.querySelectorAll(".faq-question").forEach(item => {
+    item.addEventListener("click", () => {
+
+        document.querySelectorAll(".faq-item").forEach(el => {
+            if(el !== item.parentElement){
+                el.classList.remove("active");
+            }
+        });
+
+        item.parentElement.classList.toggle("active");
+    });
+});
+</script>
+
+</body>
+</html>
